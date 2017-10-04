@@ -1,4 +1,4 @@
-Partlist exported from /Users/daveploeger/Dropbox/eagle/LAMEBOY/lameboy_oshpark R2/LAMEBOY.sch at 26/09/17 15:23
+Partlist exported from /Users/daveploeger/Dropbox/eagle/LAMEBOY/lameboy_oshpark R2/LAMEBOY.sch at 26/09/17 14:35
 
 Part   Value                   Device                        Package               Description                                                                                                   MF MPN            OC_FARNELL OC_NEWARK PROD_ID   
 C1     1uF                     C-EUC0603K                    C0603K                CAPACITOR, European symbol                                                                                                                                     

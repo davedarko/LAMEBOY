@@ -353,6 +353,24 @@ package type OT</description>
 <rectangle x1="0.7" y1="0.85" x2="1.2" y2="1.5" layer="51"/>
 <rectangle x1="-1.2" y1="0.85" x2="-0.7" y2="1.5" layer="51"/>
 </package>
+<package name="NX3225_BIGGER">
+<wire x1="-1.6" y1="1.2" x2="-1.6" y2="-1.2" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="-1.2" x2="1.6" y2="-1.2" width="0.127" layer="21"/>
+<wire x1="1.6" y1="-1.2" x2="1.6" y2="1.2" width="0.127" layer="21"/>
+<wire x1="1.6" y1="1.2" x2="-1.6" y2="1.2" width="0.127" layer="21"/>
+<wire x1="-1.4" y1="0.6825" x2="-1.0825" y2="1" width="0.127" layer="21" curve="-90"/>
+<wire x1="-1.0825" y1="1" x2="1.0825" y2="1" width="0.127" layer="21"/>
+<wire x1="1.0825" y1="1" x2="1.4" y2="0.6825" width="0.127" layer="21" curve="-90"/>
+<wire x1="1.4" y1="0.6825" x2="1.4" y2="-0.6825" width="0.127" layer="21"/>
+<wire x1="1.4" y1="-0.6825" x2="1.0825" y2="-1" width="0.127" layer="21" curve="-90"/>
+<wire x1="1.0825" y1="-1" x2="-1.0825" y2="-1" width="0.127" layer="21"/>
+<wire x1="-1.0825" y1="-1" x2="-1.4" y2="-0.6825" width="0.127" layer="21" curve="-90"/>
+<wire x1="-1.4" y1="-0.6825" x2="-1.4" y2="0.6825" width="0.127" layer="21"/>
+<smd name="4" x="-1.3" y="1" dx="1.6" dy="1.8" layer="1" rot="R90"/>
+<smd name="1" x="-1.3" y="-1" dx="1.6" dy="1.8" layer="1" rot="R90"/>
+<smd name="2" x="1.3" y="-1" dx="1.6" dy="1.8" layer="1" rot="R90"/>
+<smd name="3" x="1.3" y="1" dx="1.6" dy="1.8" layer="1" rot="R90"/>
+</package>
 </packages>
 <symbols>
 <symbol name="ESP8266-12">
@@ -458,6 +476,17 @@ package type OT</description>
 </gates>
 <devices>
 <device name="-3225" package="NX3225">
+<connects>
+<connect gate="G$1" pin="G1" pad="4"/>
+<connect gate="G$1" pin="G2" pad="2"/>
+<connect gate="G$1" pin="X1" pad="1"/>
+<connect gate="G$1" pin="X2" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="BIGGER" package="NX3225_BIGGER">
 <connects>
 <connect gate="G$1" pin="G1" pad="4"/>
 <connect gate="G$1" pin="G2" pad="2"/>
@@ -4678,6 +4707,14 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <rectangle x1="-0.15" y1="0.05" x2="0.15" y2="0.1" layer="51"/>
 <rectangle x1="-0.15" y1="-0.1" x2="0.15" y2="-0.05" layer="51"/>
 </package>
+<package name="ONEFITSALL">
+<smd name="P$1" x="-1.225" y="0" dx="1.8" dy="1.8" layer="1" rot="R90"/>
+<smd name="P$2" x="1.225" y="0" dx="1.8" dy="1.8" layer="1" rot="R90"/>
+<text x="-2.032" y="1.016" size="0.8128" layer="25">&gt;Name</text>
+<text x="-2.032" y="-1.778" size="0.8128" layer="27">&gt;Value</text>
+<wire x1="-0.254" y1="0.762" x2="0.254" y2="0.762" width="0.127" layer="51"/>
+<wire x1="0.254" y1="-0.762" x2="-0.254" y2="-0.762" width="0.127" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="C-EU">
@@ -5414,6 +5451,15 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="ONEFITSALL" package="ONEFITSALL">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6196,6 +6242,15 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="ONEFITSALL" package="ONEFITSALL">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11129,15 +11184,15 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 </classes>
 <parts>
 <part name="U$1" library="lph-7366" deviceset="LPH-7366-SLOTS" device=""/>
-<part name="C1" library="rcl" deviceset="C-EU" device="C0603K" value="1uF"/>
+<part name="C1" library="rcl" deviceset="C-EU" device="ONEFITSALL" value="1uF"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="LED1" library="led" deviceset="GM1WA55311A" device=""/>
 <part name="LED2" library="led" deviceset="GM1WA55311A" device=""/>
 <part name="LED3" library="led" deviceset="GM1WA55311A" device=""/>
 <part name="LED4" library="led" deviceset="GM1WA55311A" device=""/>
-<part name="C2" library="rcl" deviceset="C-EU" device="C0603K" value="1uF"/>
-<part name="C3" library="rcl" deviceset="C-EU" device="C0603K" value="1uF"/>
-<part name="C4" library="rcl" deviceset="C-EU" device="C0603K" value="1uF"/>
+<part name="C2" library="rcl" deviceset="C-EU" device="ONEFITSALL" value="1uF"/>
+<part name="C3" library="rcl" deviceset="C-EU" device="ONEFITSALL" value="1uF"/>
+<part name="C4" library="rcl" deviceset="C-EU" device="ONEFITSALL" value="1uF"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="X1" library="adafruit" deviceset="ESP-12" device=""/>
 <part name="RB" library="resistor-dil" deviceset="4R-N" device="0603-ARC" value="150"/>
@@ -11149,7 +11204,7 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="SUPPLY3" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
-<part name="R1" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
+<part name="R1" library="rcl" deviceset="R-EU_" device="ONEFITSALL" value="10k"/>
 <part name="CH340G" library="ch340g" deviceset="CH340G" device="CH340G"/>
 <part name="IC1" library="micro-philips" deviceset="PCF8574" device="T" value="PCF8574T"/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
@@ -11160,42 +11215,42 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <part name="SUPPLY8" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
-<part name="Q1" library="adafruit" deviceset="XTAL-4" device="-3225" value="12MHz"/>
-<part name="C5" library="rcl" deviceset="C-EU" device="C0603K" value="22pF"/>
-<part name="C6" library="rcl" deviceset="C-EU" device="C0603K" value="22pF"/>
-<part name="R2" library="rcl" deviceset="R-EU_" device="R0603" value="470"/>
-<part name="R3" library="rcl" deviceset="R-EU_" device="R0603" value="470"/>
+<part name="Q1" library="adafruit" deviceset="XTAL-4" device="BIGGER" value="12MHz"/>
+<part name="C5" library="rcl" deviceset="C-EU" device="ONEFITSALL" value="22pF"/>
+<part name="C6" library="rcl" deviceset="C-EU" device="ONEFITSALL" value="22pF"/>
+<part name="R2" library="rcl" deviceset="R-EU_" device="ONEFITSALL" value="470"/>
+<part name="R3" library="rcl" deviceset="R-EU_" device="ONEFITSALL" value="470"/>
 <part name="U$3" library="SparkFun-DiscreteSemi" deviceset="MMDT3904" device="" value="BC847S"/>
-<part name="R4" library="rcl" deviceset="R-EU_" device="R0603" value="4k7"/>
-<part name="R5" library="rcl" deviceset="R-EU_" device="R0603" value="4k7"/>
+<part name="R4" library="rcl" deviceset="R-EU_" device="ONEFITSALL" value="4k7"/>
+<part name="R5" library="rcl" deviceset="R-EU_" device="ONEFITSALL" value="4k7"/>
 <part name="SW_RST" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="-SMD-1101NE" value=""/>
 <part name="J1" library="SparkFun-Connectors" deviceset="JST_2MM_MALE" device=""/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="RPU" library="resistor-dil" deviceset="4R-N" device="0603-ARC" value="10k"/>
 <part name="SUPPLY9" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
-<part name="R6" library="rcl" deviceset="R-EU_" device="R0603" value="330k"/>
-<part name="R7" library="rcl" deviceset="R-EU_" device="R0603" value="100k"/>
+<part name="R6" library="rcl" deviceset="R-EU_" device="ONEFITSALL" value="330k"/>
+<part name="R7" library="rcl" deviceset="R-EU_" device="ONEFITSALL" value="100k"/>
 <part name="SUPPLY10" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="S2" library="SparkFun-Electromechanical" deviceset="SWITCH-SPDT" device="-SMD-A" value="PWR"/>
-<part name="R8" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
+<part name="R8" library="rcl" deviceset="R-EU_" device="ONEFITSALL" value="10k"/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="F1" library="SparkFun-PowerIC" deviceset="PTC" device="SMD"/>
 <part name="IC3" library="adafruit" deviceset="MCP73831" device="/OT" value="MCP73831"/>
 <part name="CHARGE" library="led" deviceset="LED" device="CHIP-LED0805"/>
-<part name="R9" library="rcl" deviceset="R-EU_" device="R0603" value="470"/>
-<part name="C7" library="rcl" deviceset="C-EU" device="C0603K" value="4.7uF"/>
-<part name="C8" library="rcl" deviceset="C-EU" device="C0603K" value="4.7uF"/>
+<part name="R9" library="rcl" deviceset="R-EU_" device="ONEFITSALL" value="470"/>
+<part name="C7" library="rcl" deviceset="C-EU" device="ONEFITSALL" value="4.7uF"/>
+<part name="C8" library="rcl" deviceset="C-EU" device="ONEFITSALL" value="4.7uF"/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
-<part name="R10" library="rcl" deviceset="R-EU_" device="R0603" value="2k"/>
+<part name="R10" library="rcl" deviceset="R-EU_" device="ONEFITSALL" value="2k"/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
 <part name="U$4" library="TPS2113" deviceset="TPS2113-PW" device=""/>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
-<part name="R11" library="rcl" deviceset="R-EU_" device="R0603" value="470"/>
+<part name="R11" library="rcl" deviceset="R-EU_" device="ONEFITSALL" value="470"/>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="U$6" library="SparkFun-DiscreteSemi" deviceset="MMDT3904" device="" value="BC847S"/>
@@ -11205,8 +11260,8 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <part name="GND24" library="supply1" deviceset="GND" device=""/>
 <part name="GND25" library="supply1" deviceset="GND" device=""/>
 <part name="GND26" library="supply1" deviceset="GND" device=""/>
-<part name="R12" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
-<part name="R13" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
+<part name="R12" library="rcl" deviceset="R-EU_" device="ONEFITSALL" value="10k"/>
+<part name="R13" library="rcl" deviceset="R-EU_" device="ONEFITSALL" value="10k"/>
 <part name="SUPPLY12" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="GND27" library="supply1" deviceset="GND" device=""/>
 <part name="SW_C" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="-SMD-1101NE" value=""/>
@@ -11231,6 +11286,15 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <part name="S6" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="SMD-4"/>
 <part name="S7" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="SMD-4"/>
 <part name="S8" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="SMD-4"/>
+<part name="C9" library="rcl" deviceset="C-EU" device="ONEFITSALL" value="100nF"/>
+<part name="GND12" library="supply1" deviceset="GND" device=""/>
+<part name="SUPPLY4" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
+<part name="C10" library="rcl" deviceset="C-EU" device="ONEFITSALL" value="100nF"/>
+<part name="GND36" library="supply1" deviceset="GND" device=""/>
+<part name="SUPPLY7" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
+<part name="C11" library="rcl" deviceset="C-EU" device="ONEFITSALL" value="100nF"/>
+<part name="GND37" library="supply1" deviceset="GND" device=""/>
+<part name="SUPPLY11" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11346,6 +11410,15 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <instance part="S8" gate="G$1" x="58.42" y="71.12" smashed="yes">
 <attribute name="NAME" x="53.34" y="71.12" size="1.778" layer="95"/>
 </instance>
+<instance part="C9" gate="G$1" x="144.78" y="68.58" rot="R180"/>
+<instance part="GND12" gate="1" x="144.78" y="60.96"/>
+<instance part="SUPPLY4" gate="G$1" x="144.78" y="76.2"/>
+<instance part="C10" gate="G$1" x="152.4" y="68.58" rot="R180"/>
+<instance part="GND36" gate="1" x="152.4" y="60.96"/>
+<instance part="SUPPLY7" gate="G$1" x="152.4" y="76.2"/>
+<instance part="C11" gate="G$1" x="160.02" y="68.58" rot="R180"/>
+<instance part="GND37" gate="1" x="160.02" y="60.96"/>
+<instance part="SUPPLY11" gate="G$1" x="160.02" y="76.2"/>
 </instances>
 <busses>
 </busses>
@@ -11523,6 +11596,21 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <wire x1="195.58" y1="93.98" x2="198.12" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="GND33" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="C9" gate="G$1" pin="1"/>
+<pinref part="GND12" gate="1" pin="GND"/>
+<wire x1="144.78" y1="66.04" x2="144.78" y2="63.5" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C10" gate="G$1" pin="1"/>
+<pinref part="GND36" gate="1" pin="GND"/>
+<wire x1="152.4" y1="66.04" x2="152.4" y2="63.5" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C11" gate="G$1" pin="1"/>
+<pinref part="GND37" gate="1" pin="GND"/>
+<wire x1="160.02" y1="66.04" x2="160.02" y2="63.5" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="VCC" class="0">
 <segment>
@@ -11628,6 +11716,21 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <pinref part="U1" gate="G$1" pin="VCC"/>
 <pinref part="SUPPLY13" gate="G$1" pin="VCC"/>
 <wire x1="157.48" y1="127" x2="165.1" y2="127" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C9" gate="G$1" pin="2"/>
+<pinref part="SUPPLY4" gate="G$1" pin="VCC"/>
+<wire x1="144.78" y1="76.2" x2="144.78" y2="73.66" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C10" gate="G$1" pin="2"/>
+<pinref part="SUPPLY7" gate="G$1" pin="VCC"/>
+<wire x1="152.4" y1="76.2" x2="152.4" y2="73.66" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C11" gate="G$1" pin="2"/>
+<pinref part="SUPPLY11" gate="G$1" pin="VCC"/>
+<wire x1="160.02" y1="76.2" x2="160.02" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -12551,7 +12654,7 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <junction x="149.86" y="66.04"/>
 </segment>
 </net>
-<net name="VREG_OUT" class="0">
+<net name="VREG_EN" class="0">
 <segment>
 <pinref part="S2" gate="1" pin="P"/>
 <pinref part="S2" gate="1" pin="S"/>
@@ -12580,15 +12683,6 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 </sheets>
 <errors>
 <approved hash="104,1,35.56,17.78,U$1,VDD,VCC,,,"/>
-<approved hash="104,1,248.92,10.16,IC1,VSS,GND,,,"/>
-<approved hash="104,1,248.92,38.1,IC1,VDD,VCC,,,"/>
-<approved hash="104,1,88.9,12.7,Q1,G1,GND,,,"/>
-<approved hash="104,1,88.9,2.54,Q1,G2,GND,,,"/>
-<approved hash="104,1,-38.1,17.78,IC3,VSS,GND,,,"/>
-<approved hash="104,1,-66.04,27.94,IC3,VDD,VBUS,,,"/>
-<approved hash="113,1,129.54,66.04,X1,,,,,"/>
-<approved hash="113,1,-11.43,106.087,J1,,,,,"/>
-<approved hash="113,1,-80.9583,21.59,CHARGE,,,,,"/>
 </errors>
 </schematic>
 </drawing>
