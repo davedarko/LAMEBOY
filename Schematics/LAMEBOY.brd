@@ -3026,8 +3026,8 @@ Please make sure your boards conform to these design rules.</description>
 <via x="17.78" y="1.143" extent="1-16" drill="0.5"/>
 <via x="20.066" y="4.699" extent="1-16" drill="0.5"/>
 <via x="21.336" y="4.953" extent="1-16" drill="0.5"/>
-<via x="21.844" y="2.921" extent="1-16" drill="0.5"/>
-<via x="20.574" y="3.429" extent="1-16" drill="0.5"/>
+<via x="21.59" y="3.175" extent="1-16" drill="0.5"/>
+<via x="20.32" y="3.683" extent="1-16" drill="0.5"/>
 <via x="25.908" y="5.969" extent="1-16" drill="0.5"/>
 <via x="24.384" y="5.969" extent="1-16" drill="0.5"/>
 <via x="13.462" y="29.464" extent="1-16" drill="0.5"/>
@@ -4187,8 +4187,8 @@ Please make sure your boards conform to these design rules.</description>
 <approved hash="4,1,621844991a1340fd"/>
 <approved hash="5,1,45c5c0c621195e74"/>
 <approved hash="5,1,49ddc6b3a7fddc56"/>
-<approved hash="4,1,0c6b9054233e7bc3"/>
 <approved hash="4,1,d1b9996239e35e06"/>
+<approved hash="4,1,0c6b9054233e7bc3"/>
 <approved hash="4,1,fbfb74548fd88f17"/>
 <approved hash="4,1,412e13be36da9434"/>
 <approved hash="4,1,407a3e28cd871949"/>
