@@ -7488,6 +7488,15 @@ Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
 <vertex x="-1.27" y="0" curve="-90"/>
 </polygon>
 </package>
+<package name="0402">
+<description>&lt;b&gt;CHICAGO MINIATURE LAMP, INC.&lt;/b&gt;&lt;p&gt;
+7022X Series SMT LEDs 1206 Package Size</description>
+<smd name="A" x="-0.425" y="0" dx="0.6" dy="0.55" layer="1"/>
+<smd name="C" x="0.425" y="0" dx="0.6" dy="0.55" layer="1"/>
+<text x="-0.895" y="0.52" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-0.895" y="-0.915" size="0.4064" layer="27">&gt;VALUE</text>
+<wire x1="0.875" y1="0.375" x2="0.875" y2="-0.375" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="LED-RGB-A">
@@ -8025,6 +8034,15 @@ Source: www.kingbright.com</description>
 </technologies>
 </device>
 <device name="STRANGELED" package="CHIPLED_0805_BS">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0402" package="0402">
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="C"/>
@@ -11240,7 +11258,7 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="F1" library="SparkFun-PowerIC" deviceset="PTC" device="SMD"/>
 <part name="IC3" library="adafruit" deviceset="MCP73831" device="/OT" value="MCP73831"/>
-<part name="CHARGE" library="led" deviceset="LED" device="CHIP-LED0805"/>
+<part name="CHARGE" library="led" deviceset="LED" device="CHARLIE"/>
 <part name="R9" library="rcl" deviceset="R-EU_" device="ONEFITSALL" value="470"/>
 <part name="C7" library="rcl" deviceset="C-EU" device="ONEFITSALL" value="4.7uF"/>
 <part name="C8" library="rcl" deviceset="C-EU" device="ONEFITSALL" value="4.7uF"/>
