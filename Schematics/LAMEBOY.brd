@@ -14,12 +14,12 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -3059,6 +3059,16 @@ Please make sure your boards conform to these design rules.</description>
 <via x="8.509" y="36.703" extent="1-16" drill="0.5"/>
 <via x="5.969" y="37.719" extent="1-16" drill="0.5"/>
 <via x="42.545" y="25.4" extent="1-16" drill="0.5"/>
+<via x="38.481" y="37.211" extent="1-16" drill="0.5"/>
+<via x="38.481" y="34.29" extent="1-16" drill="0.5"/>
+<via x="37.846" y="35.687" extent="1-16" drill="0.5"/>
+<via x="34.29" y="29.21" extent="1-16" drill="0.5"/>
+<via x="35.56" y="27.94" extent="1-16" drill="0.5"/>
+<via x="36.83" y="26.67" extent="1-16" drill="0.5"/>
+<via x="41.91" y="5.715" extent="1-16" drill="0.5"/>
+<via x="41.91" y="3.175" extent="1-16" drill="0.5"/>
+<via x="43.18" y="8.382" extent="1-16" drill="0.5"/>
+<via x="37.465" y="10.16" extent="1-16" drill="0.5"/>
 </signal>
 <signal name="VCC">
 <contactref element="U$2" pad="8"/>
@@ -3133,7 +3143,6 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="23.876" y1="35.052" x2="24.765" y2="35.052" width="0.4064" layer="1"/>
 <wire x1="24.765" y1="35.052" x2="25.4" y2="34.417" width="0.4064" layer="1"/>
 <wire x1="25.4" y1="34.417" x2="26.924" y2="34.417" width="0.4064" layer="1"/>
-<contactref element="S2" pad="1"/>
 <wire x1="40.005" y1="52.07" x2="40.005" y2="39.878" width="0.4064" layer="1"/>
 <wire x1="40.005" y1="39.878" x2="40.005" y2="32.131" width="0.4064" layer="1"/>
 <wire x1="26.86091875" y1="31.2592" x2="39.3872" y2="31.2592" width="0.4064" layer="16"/>
@@ -3156,7 +3165,6 @@ Please make sure your boards conform to these design rules.</description>
 <via x="5.588" y="38.735" extent="1-16" drill="0.3302"/>
 <contactref element="U$9" pad="P$5"/>
 <contactref element="C3" pad="P$1"/>
-<wire x1="34.326" y1="63.782" x2="34.326" y2="62.194" width="0.254" layer="1"/>
 <contactref element="U$10" pad="P$2"/>
 <wire x1="2.286" y1="25.13" x2="2.27" y2="25.146" width="0.4064" layer="1"/>
 <wire x1="2.27" y1="25.146" x2="0.635" y2="25.146" width="0.4064" layer="1"/>
@@ -3167,8 +3175,6 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="C11" pad="P$2"/>
 <wire x1="38.1" y1="52.07" x2="38.1" y2="57.1475" width="0.254" layer="1"/>
 <wire x1="38.1" y1="57.1475" x2="38.3725" y2="57.15" width="0.254" layer="1"/>
-<wire x1="34.326" y1="62.194" x2="38.1" y2="58.42" width="0.254" layer="1"/>
-<wire x1="38.1" y1="58.42" x2="38.1" y2="57.1525" width="0.254" layer="1"/>
 <wire x1="38.1" y1="57.1525" x2="38.3725" y2="57.15" width="0.254" layer="1"/>
 <wire x1="27.527" y1="53.372" x2="27.559" y2="53.34" width="0.4064" layer="1"/>
 <wire x1="31.496" y1="32.975" x2="28.448" y2="32.975" width="0.4064" layer="1"/>
@@ -3528,12 +3534,12 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="17.526" y1="35.2425" x2="17.526" y2="38.227" width="0.254" layer="1"/>
 <wire x1="17.526" y1="38.227" x2="16.764" y2="38.989" width="0.254" layer="1"/>
 <wire x1="16.764" y1="38.989" x2="16.764" y2="46.101" width="0.254" layer="1"/>
-<wire x1="16.764" y1="46.101" x2="16.764" y2="50.292" width="0.254" layer="16"/>
-<wire x1="16.764" y1="50.292" x2="19.201" y2="52.729" width="0.254" layer="1"/>
+<wire x1="16.764" y1="46.101" x2="16.764" y2="49.911" width="0.254" layer="16"/>
+<wire x1="16.764" y1="49.911" x2="19.582" y2="52.729" width="0.254" layer="1"/>
 <via x="18.034" y="34.7345" extent="1-16" drill="0.3302"/>
 <via x="16.764" y="46.101" extent="1-16" drill="0.3302"/>
-<via x="16.764" y="50.292" extent="1-16" drill="0.3302"/>
-<wire x1="22.74" y1="52.729" x2="19.201" y2="52.729" width="0.254" layer="1"/>
+<via x="16.764" y="49.911" extent="1-16" drill="0.3302"/>
+<wire x1="22.74" y1="52.729" x2="19.582" y2="52.729" width="0.254" layer="1"/>
 <contactref element="U$10" pad="P$3"/>
 <wire x1="5.461" y1="24.257" x2="4.334" y2="23.13" width="0.254" layer="16"/>
 <wire x1="4.334" y1="23.13" x2="2.286" y2="23.13" width="0.254" layer="16"/>
@@ -3598,11 +3604,11 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="RX_ESP">
 <contactref element="X1" pad="15"/>
 <contactref element="R3" pad="P$1"/>
-<wire x1="11.938" y1="22.225" x2="11.938" y2="51.816" width="0.254" layer="1"/>
-<via x="11.938" y="51.816" extent="1-16" drill="0.3302" diameter="0.635"/>
-<wire x1="11.938" y1="51.816" x2="15.621" y2="51.816" width="0.254" layer="16"/>
-<via x="15.621" y="51.816" extent="1-16" drill="0.3302" diameter="0.635"/>
-<wire x1="15.621" y1="51.816" x2="15.621" y2="52.07" width="0.254" layer="1"/>
+<wire x1="11.938" y1="22.225" x2="11.938" y2="51.435" width="0.254" layer="1"/>
+<via x="11.938" y="51.435" extent="1-16" drill="0.3302" diameter="0.635"/>
+<wire x1="11.938" y1="51.435" x2="15.621" y2="51.435" width="0.254" layer="16"/>
+<via x="15.621" y="51.435" extent="1-16" drill="0.3302" diameter="0.635"/>
+<wire x1="15.621" y1="51.435" x2="15.621" y2="52.07" width="0.254" layer="1"/>
 <wire x1="15.621" y1="52.07" x2="20.32" y2="56.769" width="0.254" layer="1"/>
 <wire x1="20.32" y1="56.769" x2="22.319" y2="56.769" width="0.254" layer="1"/>
 <wire x1="22.319" y1="56.769" x2="22.74" y2="56.729" width="0.254" layer="1"/>
@@ -3615,11 +3621,11 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="TX_ESP">
 <contactref element="X1" pad="16"/>
 <contactref element="R2" pad="P$1"/>
-<via x="12.573" y="50.8" extent="1-16" drill="0.3302" diameter="0.635"/>
-<wire x1="12.573" y1="22.098" x2="12.573" y2="50.8" width="0.254" layer="1"/>
-<wire x1="12.573" y1="50.8" x2="14.859" y2="50.8" width="0.254" layer="16"/>
-<via x="14.859" y="50.8" extent="1-16" drill="0.3302" diameter="0.635"/>
-<wire x1="14.859" y1="50.8" x2="14.859" y2="52.578" width="0.254" layer="1"/>
+<via x="12.573" y="49.911" extent="1-16" drill="0.3302" diameter="0.635"/>
+<wire x1="12.573" y1="22.098" x2="12.573" y2="49.911" width="0.254" layer="1"/>
+<wire x1="12.573" y1="49.911" x2="14.859" y2="49.911" width="0.254" layer="16"/>
+<via x="14.859" y="49.911" extent="1-16" drill="0.3302" diameter="0.635"/>
+<wire x1="14.859" y1="49.911" x2="14.859" y2="52.578" width="0.254" layer="1"/>
 <wire x1="14.859" y1="52.578" x2="21.336" y2="59.055" width="0.254" layer="1"/>
 <wire x1="21.336" y1="59.055" x2="22.685" y2="59.055" width="0.254" layer="1"/>
 <wire x1="22.685" y1="59.055" x2="22.74" y2="58.729" width="0.254" layer="1"/>
@@ -3711,13 +3717,13 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="44.323" y1="59.17" x2="44.97" y2="59.17" width="0.254" layer="1"/>
 <wire x1="44.97" y1="59.17" x2="45.212" y2="58.928" width="0.254" layer="1"/>
 <wire x1="45.212" y1="58.928" x2="45.212" y2="8.763" width="0.254" layer="1"/>
-<wire x1="45.212" y1="8.763" x2="44.069" y2="7.62" width="0.254" layer="1"/>
-<wire x1="44.069" y1="7.62" x2="43.434" y2="6.985" width="0.254" layer="16"/>
+<wire x1="45.212" y1="8.763" x2="43.688" y2="7.239" width="0.254" layer="1"/>
+<wire x1="43.688" y1="7.239" x2="43.434" y2="6.985" width="0.254" layer="16"/>
 <wire x1="43.434" y1="6.985" x2="30.099" y2="6.985" width="0.254" layer="16"/>
 <via x="30.099" y="6.985" extent="1-16" drill="0.3302"/>
 <wire x1="30.099" y1="6.985" x2="29.169" y2="6.055" width="0.254" layer="1"/>
 <wire x1="29.169" y1="6.055" x2="27.03" y2="6.055" width="0.254" layer="1"/>
-<via x="44.069" y="7.62" extent="1-16" drill="0.3302"/>
+<via x="43.688" y="7.239" extent="1-16" drill="0.3302"/>
 <wire x1="18.415" y1="5.21" x2="18.415" y2="6.223" width="0.4064" layer="1"/>
 <wire x1="18.415" y1="6.223" x2="19.177" y2="6.985" width="0.4064" layer="1"/>
 </signal>
@@ -4010,15 +4016,15 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="CHARGE" pad="C"/>
 <wire x1="44.323" y1="57.67" x2="44.323" y2="56.769" width="0.254" layer="1"/>
 <wire x1="44.323" y1="56.769" x2="44.704" y2="56.388" width="0.254" layer="1"/>
-<wire x1="44.704" y1="56.388" x2="44.704" y2="12.573" width="0.254" layer="1"/>
-<wire x1="44.704" y1="12.573" x2="43.942" y2="11.811" width="0.254" layer="1"/>
-<via x="43.942" y="11.811" extent="1-16" drill="0.3302"/>
+<wire x1="44.704" y1="56.388" x2="44.704" y2="13.081" width="0.254" layer="1"/>
+<wire x1="44.704" y1="13.081" x2="43.688" y2="12.065" width="0.254" layer="1"/>
+<via x="43.688" y="12.065" extent="1-16" drill="0.3302"/>
 <wire x1="28.657" y1="14.224" x2="30.226" y2="14.224" width="0.254" layer="1"/>
 <wire x1="30.226" y1="14.224" x2="30.226" y2="11.43" width="0.254" layer="16"/>
 <wire x1="30.226" y1="11.43" x2="31.75" y2="10.033" width="0.254" layer="16"/>
 <wire x1="31.75" y1="10.033" x2="35.56" y2="10.033" width="0.254" layer="16"/>
-<wire x1="35.56" y1="10.033" x2="37.338" y2="11.811" width="0.254" layer="16"/>
-<wire x1="37.338" y1="11.811" x2="43.942" y2="11.811" width="0.254" layer="16"/>
+<wire x1="35.56" y1="10.033" x2="37.592" y2="12.065" width="0.254" layer="16"/>
+<wire x1="37.592" y1="12.065" x2="43.688" y2="12.065" width="0.254" layer="16"/>
 <via x="30.226" y="14.224" extent="1-16" drill="0.3302"/>
 </signal>
 <signal name="N$21">
@@ -4039,11 +4045,31 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="U$4" pad="7"/>
 <contactref element="C2" pad="P$1"/>
 <contactref element="U$9" pad="P$1"/>
-<wire x1="32.07" y1="6.42" x2="32.07" y2="3.7675" width="0.254" layer="1"/>
+<wire x1="32.07" y1="6.42" x2="32.07" y2="4.826" width="0.254" layer="1"/>
 <wire x1="32.07" y1="3.7675" x2="31.795" y2="3.3655" width="0.254" layer="1"/>
 <wire x1="31.795" y1="3.3655" x2="30.4165" y2="3.3655" width="0.4064" layer="1"/>
 <wire x1="30.4165" y1="3.3655" x2="28.377" y2="5.405" width="0.4064" layer="1"/>
 <wire x1="27.03" y1="5.405" x2="28.377" y2="5.405" width="0.4064" layer="1"/>
+<contactref element="S2" pad="1"/>
+<wire x1="34.326" y1="63.782" x2="34.326" y2="62.194" width="0.254" layer="1"/>
+<wire x1="34.326" y1="62.194" x2="34.417" y2="62.23" width="0.254" layer="1"/>
+<via x="34.417" y="62.23" extent="1-16" drill="0.3302"/>
+<wire x1="34.417" y1="62.23" x2="41.91" y2="62.23" width="0.254" layer="16"/>
+<wire x1="41.91" y1="62.23" x2="43.434" y2="60.706" width="0.254" layer="16"/>
+<via x="43.434" y="60.706" extent="1-16" drill="0.3302"/>
+<wire x1="43.434" y1="60.706" x2="43.434" y2="54.737" width="0.254" layer="1"/>
+<via x="43.434" y="54.737" extent="1-16" drill="0.3302"/>
+<wire x1="43.434" y1="54.737" x2="45.212" y2="52.959" width="0.254" layer="16"/>
+<wire x1="45.212" y1="52.959" x2="45.212" y2="2.794" width="0.254" layer="16"/>
+<wire x1="45.212" y1="2.794" x2="44.45" y2="2.032" width="0.254" layer="16"/>
+<via x="44.45" y="2.032" extent="1-16" drill="0.3302"/>
+<wire x1="44.45" y1="2.032" x2="43.18" y2="0.762" width="0.254" layer="1"/>
+<wire x1="43.18" y1="0.762" x2="31.369" y2="0.762" width="0.254" layer="1"/>
+<via x="31.369" y="0.762" extent="1-16" drill="0.3302"/>
+<wire x1="31.369" y1="0.762" x2="32.07" y2="1.463" width="0.254" layer="16"/>
+<wire x1="32.07" y1="1.463" x2="32.07" y2="4.826" width="0.254" layer="16"/>
+<via x="32.07" y="4.826" extent="1-16" drill="0.3302"/>
+<wire x1="32.07" y1="4.826" x2="32.07" y2="3.7675" width="0.254" layer="1"/>
 </signal>
 <signal name="VREG_EN">
 <contactref element="S2" pad="2"/>
@@ -4175,9 +4201,9 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="SD_CS">
 <contactref element="U1" pad="P$2"/>
 <contactref element="X1" pad="4"/>
-<wire x1="7.74" y1="52.729" x2="9.755" y2="52.729" width="0.254" layer="1"/>
-<wire x1="9.755" y1="52.729" x2="11.303" y2="51.181" width="0.254" layer="1"/>
-<wire x1="11.303" y1="51.181" x2="11.303" y2="23.368" width="0.254" layer="1"/>
+<wire x1="7.74" y1="52.729" x2="8.993" y2="52.729" width="0.254" layer="1"/>
+<wire x1="8.993" y1="52.729" x2="11.303" y2="50.419" width="0.254" layer="1"/>
+<wire x1="11.303" y1="50.419" x2="11.303" y2="23.368" width="0.254" layer="1"/>
 <via x="11.303" y="23.368" extent="1-16" drill="0.3302"/>
 <wire x1="11.303" y1="23.368" x2="25.654" y2="23.368" width="0.254" layer="16"/>
 <via x="25.654" y="23.368" extent="1-16" drill="0.3302"/>
@@ -4385,26 +4411,26 @@ Please make sure your boards conform to these design rules.</description>
 <approved hash="6,16,dedf2fd62ee1ed94"/>
 <approved hash="6,16,58d77d0d4685cc45"/>
 <approved hash="6,16,f9a910c450efa5e4"/>
-<approved hash="5,1,45c5c0c621195e74"/>
 <approved hash="5,1,49ddc6b3a7fddc56"/>
+<approved hash="5,1,45c5c0c621195e74"/>
 <approved hash="4,1,fbfb74548fd88f17"/>
-<approved hash="4,1,79d2715f7742bd4d"/>
 <approved hash="4,1,571cc74fc2273614"/>
+<approved hash="4,1,79d2715f7742bd4d"/>
 <approved hash="4,1,75f752db5c212c6f"/>
 <approved hash="4,1,412e13be36da9434"/>
 <approved hash="4,1,407a3e28cd871949"/>
 <approved hash="4,1,68773e31c2ca0b97"/>
-<approved hash="19,16,eae723300d31dc99"/>
 <approved hash="19,16,f95454e5b2262796"/>
+<approved hash="19,16,eae723300d31dc99"/>
 <approved hash="19,16,eae5473ca33c2e99"/>
-<approved hash="5,16,c2610d601586065f"/>
 <approved hash="5,16,d5b0c11961701629"/>
-<approved hash="5,16,c7916daeaaf348d7"/>
+<approved hash="5,16,c2610d601586065f"/>
 <approved hash="5,16,3ddf247e7c0a7cac"/>
+<approved hash="5,16,c7916daeaaf348d7"/>
 <approved hash="5,16,a0958639be8f1c4b"/>
-<approved hash="5,16,f86e1c29456659a3"/>
 <approved hash="5,16,f27b77a4beb37733"/>
 <approved hash="5,16,4968ef5a0838938a"/>
+<approved hash="5,16,f86e1c29456659a3"/>
 <approved hash="5,16,e7a4fc187f219865"/>
 <approved hash="5,16,a621426cbe59a296"/>
 <approved hash="5,16,2685080b5fe13467"/>
