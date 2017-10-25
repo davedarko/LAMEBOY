@@ -8,15 +8,15 @@
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
@@ -281,15 +281,15 @@ one day</text>
 <wire x1="19.5" y1="7.25" x2="19.5" y2="4.75" width="0.05" layer="51"/>
 <wire x1="19.5" y1="4.75" x2="18.5" y2="4.75" width="0.05" layer="51"/>
 <wire x1="18.5" y1="4.75" x2="18.5" y2="7.25" width="0.05" layer="51"/>
-<smd name="4" x="1" y="17" dx="3" dy="0.75" layer="1" rot="R90"/>
-<smd name="3" x="2" y="17" dx="3" dy="0.75" layer="1" rot="R90"/>
-<smd name="2" x="3" y="17" dx="3" dy="0.75" layer="1" rot="R90"/>
-<smd name="1" x="4" y="17" dx="3" dy="0.75" layer="1" rot="R90"/>
-<smd name="9" x="-4" y="17" dx="3" dy="0.75" layer="1" rot="R90"/>
-<smd name="5" x="0" y="17" dx="3" dy="0.75" layer="1" rot="R90"/>
-<smd name="6" x="-1" y="17" dx="3" dy="0.75" layer="1" rot="R90"/>
-<smd name="7" x="-2" y="17" dx="3" dy="0.75" layer="1" rot="R90"/>
-<smd name="8" x="-3" y="17" dx="3" dy="0.75" layer="1" rot="R90"/>
+<smd name="4" x="1" y="17" dx="3" dy="0.75" layer="1" rot="R90" cream="no"/>
+<smd name="3" x="2" y="17" dx="3" dy="0.75" layer="1" rot="R90" cream="no"/>
+<smd name="2" x="3" y="17" dx="3" dy="0.75" layer="1" rot="R90" cream="no"/>
+<smd name="1" x="4" y="17" dx="3" dy="0.75" layer="1" rot="R90" cream="no"/>
+<smd name="9" x="-4" y="17" dx="3" dy="0.75" layer="1" rot="R90" cream="no"/>
+<smd name="5" x="0" y="17" dx="3" dy="0.75" layer="1" rot="R90" cream="no"/>
+<smd name="6" x="-1" y="17" dx="3" dy="0.75" layer="1" rot="R90" cream="no"/>
+<smd name="7" x="-2" y="17" dx="3" dy="0.75" layer="1" rot="R90" cream="no"/>
+<smd name="8" x="-3" y="17" dx="3" dy="0.75" layer="1" rot="R90" cream="no"/>
 <text x="-19.05" y="19.05" size="1.27" layer="25">&gt;NAME</text>
 <text x="-19.05" y="-17.78" size="1.27" layer="27">&gt;VALUE</text>
 <hole x="-17" y="13" drill="1.5"/>
@@ -4414,23 +4414,23 @@ Please make sure your boards conform to these design rules.</description>
 <approved hash="5,1,49ddc6b3a7fddc56"/>
 <approved hash="5,1,45c5c0c621195e74"/>
 <approved hash="4,1,fbfb74548fd88f17"/>
-<approved hash="4,1,571cc74fc2273614"/>
 <approved hash="4,1,79d2715f7742bd4d"/>
+<approved hash="4,1,571cc74fc2273614"/>
 <approved hash="4,1,75f752db5c212c6f"/>
 <approved hash="4,1,412e13be36da9434"/>
 <approved hash="4,1,407a3e28cd871949"/>
 <approved hash="4,1,68773e31c2ca0b97"/>
-<approved hash="19,16,f95454e5b2262796"/>
-<approved hash="19,16,eae723300d31dc99"/>
-<approved hash="19,16,eae5473ca33c2e99"/>
-<approved hash="5,16,d5b0c11961701629"/>
 <approved hash="5,16,c2610d601586065f"/>
-<approved hash="5,16,3ddf247e7c0a7cac"/>
+<approved hash="5,16,d5b0c11961701629"/>
+<approved hash="19,16,eae723300d31dc99"/>
+<approved hash="19,16,f95454e5b2262796"/>
+<approved hash="19,16,eae5473ca33c2e99"/>
 <approved hash="5,16,c7916daeaaf348d7"/>
+<approved hash="5,16,3ddf247e7c0a7cac"/>
 <approved hash="5,16,a0958639be8f1c4b"/>
+<approved hash="5,16,f86e1c29456659a3"/>
 <approved hash="5,16,f27b77a4beb37733"/>
 <approved hash="5,16,4968ef5a0838938a"/>
-<approved hash="5,16,f86e1c29456659a3"/>
 <approved hash="5,16,e7a4fc187f219865"/>
 <approved hash="5,16,a621426cbe59a296"/>
 <approved hash="5,16,2685080b5fe13467"/>
