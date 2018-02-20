@@ -155,7 +155,7 @@
 <text x="7.62" y="7.874" size="0.8128" layer="25" ratio="12" rot="R90">CH340G</text>
 <text x="1.27" y="10.16" size="0.8128" layer="25" ratio="12" rot="R90">12MHz</text>
 <text x="37.973" y="1.905" size="0.8128" layer="25" ratio="12">JST LIPO</text>
-<text x="26.543" y="54.229" size="0.8128" layer="25" ratio="12">ATTINY/45/85</text>
+<text x="25.4" y="54.356" size="0.8128" layer="25" ratio="12">ATTINY/45/85</text>
 <text x="24.1935" y="58.547" size="1.016" layer="25" ratio="12">https://hackaday.io/
 project/
 26823</text>
@@ -240,6 +240,16 @@ one day</text>
 <wire x1="41.91" y1="54.102" x2="41.91" y2="54.864" width="0.1524" layer="26"/>
 <wire x1="41.91" y1="40.64" x2="41.91" y2="41.402" width="0.1524" layer="26"/>
 <text x="38.989" y="12.446" size="1.016" layer="25" ratio="12">&gt;450mAh</text>
+<text x="39.624" y="46.101" size="0.8128" layer="25" ratio="12">GND</text>
+<text x="34.29" y="53.467" size="0.8128" layer="25" ratio="12">MISO</text>
+<text x="39.624" y="48.641" size="0.8128" layer="25" ratio="12">MOSI</text>
+<text x="39.497" y="51.181" size="0.8128" layer="25" ratio="12">VCC</text>
+<text x="34.036" y="48.006" size="0.8128" layer="25" ratio="12" rot="R90">SCLK</text>
+<text x="34.544" y="44.704" size="0.8128" layer="25" ratio="12">RST</text>
+<wire x1="36.576" y1="58.166" x2="37.211" y2="58.166" width="0.1524" layer="25"/>
+<wire x1="36.576" y1="57.404" x2="37.211" y2="57.404" width="0.1524" layer="25"/>
+<wire x1="36.576" y1="55.499" x2="37.211" y2="55.499" width="0.1524" layer="25"/>
+<wire x1="36.576" y1="59.944" x2="37.211" y2="59.944" width="0.1524" layer="25"/>
 </plain>
 <libraries>
 <library name="lph-7366">
