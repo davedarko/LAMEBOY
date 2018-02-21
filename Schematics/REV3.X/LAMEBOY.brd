@@ -9,7 +9,7 @@
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -19,7 +19,7 @@
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -159,7 +159,7 @@
 <text x="24.1935" y="58.547" size="1.016" layer="25" ratio="12">https://hackaday.io/
 project/
 26823</text>
-<text x="30.988" y="0.381" size="1.016" layer="25" ratio="12">davedarko 2017</text>
+<text x="30.988" y="0.381" size="1.016" layer="25" ratio="12">davedarko 2018</text>
 <wire x1="9.779" y1="17.653" x2="9.271" y2="17.145" width="0.254" layer="25"/>
 <wire x1="9.271" y1="17.145" x2="9.271" y2="8.128" width="0.254" layer="25"/>
 <wire x1="9.271" y1="8.128" x2="9.779" y2="7.62" width="0.254" layer="25"/>
@@ -250,6 +250,30 @@ one day</text>
 <wire x1="36.576" y1="57.404" x2="37.211" y2="57.404" width="0.1524" layer="25"/>
 <wire x1="36.576" y1="55.499" x2="37.211" y2="55.499" width="0.1524" layer="25"/>
 <wire x1="36.576" y1="59.944" x2="37.211" y2="59.944" width="0.1524" layer="25"/>
+<text x="14.224" y="46.482" size="0.8128" layer="26" ratio="12" rot="MR0">Common Anode
+RGB LED
+means joined
+positive pin</text>
+<text x="4.318" y="51.435" size="1.27" layer="26" ratio="12" rot="MR0">+</text>
+<text x="4.318" y="37.465" size="1.27" layer="26" ratio="12" rot="MR0">+</text>
+<text x="42.418" y="37.465" size="1.27" layer="26" ratio="12" rot="MR0">+</text>
+<text x="42.291" y="51.435" size="1.27" layer="26" ratio="12" rot="MR0">+</text>
+<wire x1="13.97" y1="52.07" x2="10.16" y2="52.07" width="0.1524" layer="26"/>
+<wire x1="10.16" y1="52.07" x2="10.16" y2="52.959" width="0.1524" layer="26"/>
+<wire x1="10.16" y1="52.07" x2="10.16" y2="51.181" width="0.1524" layer="26"/>
+<wire x1="10.16" y1="51.181" x2="8.89" y2="52.07" width="0.1524" layer="26"/>
+<wire x1="10.16" y1="52.959" x2="8.89" y2="52.07" width="0.1524" layer="26"/>
+<wire x1="8.89" y1="52.07" x2="8.89" y2="52.959" width="0.1524" layer="26"/>
+<wire x1="8.89" y1="51.181" x2="8.89" y2="52.07" width="0.1524" layer="26"/>
+<wire x1="8.89" y1="52.07" x2="5.08" y2="52.07" width="0.1524" layer="26"/>
+<text x="13.335" y="52.451" size="1.778" layer="26" ratio="12" rot="MR0">+</text>
+<text x="6.985" y="52.451" size="1.778" layer="26" ratio="12" rot="MR0">-</text>
+<wire x1="4.445" y1="53.721" x2="3.937" y2="52.832" width="0.1524" layer="26"/>
+<wire x1="4.318" y1="40.132" x2="3.937" y2="38.862" width="0.1524" layer="26"/>
+<wire x1="42.418" y1="40.132" x2="42.037" y2="38.989" width="0.1524" layer="26"/>
+<wire x1="41.91" y1="52.832" x2="42.291" y2="53.848" width="0.1524" layer="26"/>
+<wire x1="43.561" y1="59.055" x2="42.672" y2="57.912" width="0.1524" layer="25"/>
+<text x="41.91" y="56.896" size="1.27" layer="25" ratio="12">+</text>
 </plain>
 <libraries>
 <library name="lph-7366">
