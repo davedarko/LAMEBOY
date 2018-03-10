@@ -190,15 +190,15 @@
 <wire x1="19.5" y1="7.25" x2="19.5" y2="4.75" width="0.05" layer="51"/>
 <wire x1="19.5" y1="4.75" x2="18.5" y2="4.75" width="0.05" layer="51"/>
 <wire x1="18.5" y1="4.75" x2="18.5" y2="7.25" width="0.05" layer="51"/>
-<smd name="4" x="1" y="17" dx="3" dy="0.75" layer="1" rot="R90" cream="no"/>
-<smd name="3" x="2" y="17" dx="3" dy="0.75" layer="1" rot="R90" cream="no"/>
-<smd name="2" x="3" y="17" dx="3" dy="0.75" layer="1" rot="R90" cream="no"/>
-<smd name="1" x="4" y="17" dx="3" dy="0.75" layer="1" rot="R90" cream="no"/>
-<smd name="9" x="-4" y="17" dx="3" dy="0.75" layer="1" rot="R90" cream="no"/>
-<smd name="5" x="0" y="17" dx="3" dy="0.75" layer="1" rot="R90" cream="no"/>
-<smd name="6" x="-1" y="17" dx="3" dy="0.75" layer="1" rot="R90" cream="no"/>
-<smd name="7" x="-2" y="17" dx="3" dy="0.75" layer="1" rot="R90" cream="no"/>
-<smd name="8" x="-3" y="17" dx="3" dy="0.75" layer="1" rot="R90" cream="no"/>
+<smd name="4" x="1" y="17" dx="3" dy="0.5" layer="1" rot="R90" cream="no"/>
+<smd name="3" x="2" y="17" dx="3" dy="0.5" layer="1" rot="R90" cream="no"/>
+<smd name="2" x="3" y="17" dx="3" dy="0.5" layer="1" rot="R90" cream="no"/>
+<smd name="1" x="4" y="17" dx="3" dy="0.5" layer="1" rot="R90" cream="no"/>
+<smd name="9" x="-4" y="17" dx="3" dy="0.5" layer="1" rot="R90" cream="no"/>
+<smd name="5" x="0" y="17" dx="3" dy="0.5" layer="1" rot="R90" cream="no"/>
+<smd name="6" x="-1" y="17" dx="3" dy="0.5" layer="1" rot="R90" cream="no"/>
+<smd name="7" x="-2" y="17" dx="3" dy="0.5" layer="1" rot="R90" cream="no"/>
+<smd name="8" x="-3" y="17" dx="3" dy="0.5" layer="1" rot="R90" cream="no"/>
 <text x="-19.05" y="19.05" size="1.27" layer="25">&gt;NAME</text>
 <text x="-19.05" y="-17.78" size="1.27" layer="27">&gt;VALUE</text>
 <hole x="-17" y="13" drill="1.5"/>
@@ -12008,6 +12008,7 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <wire x1="17.78" y1="63.5" x2="15.24" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="71.12" x2="15.24" y2="63.5" width="0.1524" layer="91"/>
 <junction x="15.24" y="71.12"/>
+<junction x="15.24" y="86.36"/>
 </segment>
 <segment>
 <pinref part="X1" gate="G$1" pin="VCC"/>
@@ -13031,6 +13032,15 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 </sheets>
 <errors>
 <approved hash="104,1,35.56,17.78,U$1,VDD,VCC,,,"/>
+<approved hash="104,1,132.08,10.16,IC1,VSS,GND,,,"/>
+<approved hash="104,1,132.08,38.1,IC1,VDD,VCC,,,"/>
+<approved hash="104,1,71.12,43.18,Q1,G1,GND,,,"/>
+<approved hash="104,1,71.12,33.02,Q1,G2,GND,,,"/>
+<approved hash="104,2,71.12,30.48,IC3,VSS,GND,,,"/>
+<approved hash="104,2,43.18,40.64,IC3,VDD,VBUS,,,"/>
+<approved hash="113,1,111.76,96.52,X1,,,,,"/>
+<approved hash="113,2,84.4127,8.89,J1,,,,,"/>
+<approved hash="113,2,28.2617,34.29,CHARGE,,,,,"/>
 </errors>
 </schematic>
 </drawing>
