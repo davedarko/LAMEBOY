@@ -197,7 +197,6 @@ project/
 <wire x1="31.75" y1="14.732" x2="45.339" y2="14.732" width="0.254" layer="25"/>
 <text x="31.75" y="13.208" size="1.016" layer="25" ratio="12">SD</text>
 <text x="0.635" y="39.751" size="1.778" layer="26" ratio="15" rot="MR90">RST</text>
-<text x="44.831" y="41.021" size="1.778" layer="26" ratio="15" rot="MR0">C</text>
 <text x="32.385" y="40.894" size="0.8128" layer="25" ratio="12">BC847S</text>
 <text x="39.37" y="37.211" size="0.8128" layer="25" ratio="12" rot="R90">BC847S</text>
 <text x="19.939" y="16.256" size="0.8128" layer="25" ratio="12">BC847S</text>
