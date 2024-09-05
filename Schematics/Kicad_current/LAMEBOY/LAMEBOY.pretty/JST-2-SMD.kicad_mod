@@ -1,0 +1,217 @@
+(footprint "JST-2-SMD"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "2mm SMD side-entry connector. tDocu layer indicates the actual physical plastic housing. +/- indicate SparkFun standard batteries and wiring.")
+	(property "Reference" "REF**"
+		(at -1.27 -1.27 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "34cf8299-e074-4a7d-9d11-72693fc0c8a0")
+		(effects
+			(font
+				(size 0.373888 0.373888)
+				(thickness 0.032512)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "JST-2-SMD"
+		(at -1.27 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e213843e-4d20-4acf-ba86-e7453c4cb0d5")
+		(effects
+			(font
+				(size 0.373888 0.373888)
+				(thickness 0.032512)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d84d6414-fc26-4681-b4da-1407149288d0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e75e01ce-c1ea-44b9-8aaf-b4a059ea6433")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fd17f394-9dd9-47fa-83d8-7eb49394db92")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -4 1)
+		(end -4 4.5)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "15330031-be33-4c03-8d6e-2b7db86080aa")
+	)
+	(fp_line
+		(start -4 4.5)
+		(end -3.2 4.5)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "af33c053-a1b9-48d8-a0b2-24986edcf217")
+	)
+	(fp_line
+		(start -3.2 2)
+		(end -2 2)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "30f465b6-6822-418a-be49-30aa585479d0")
+	)
+	(fp_line
+		(start -3.2 4.5)
+		(end -3.2 2)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fc708640-2b1c-4ec2-abb8-3b9e395abd69")
+	)
+	(fp_line
+		(start 2 -3)
+		(end -2 -3)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "30094a66-2004-4744-b8c5-087128cda881")
+	)
+	(fp_line
+		(start 2 2)
+		(end 3.2 2)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "db372077-e90b-4049-8aea-90bb762f7dd6")
+	)
+	(fp_line
+		(start 3.2 2)
+		(end 3.2 4.5)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e6abebc3-e0a7-437b-8395-a3b6239a40b5")
+	)
+	(fp_line
+		(start 3.2 4.5)
+		(end 4 4.5)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1b86d9b7-7a44-41a5-9ed4-affa39baad73")
+	)
+	(fp_line
+		(start 4 4.5)
+		(end 4 1)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7a6b1c71-d25f-42a4-994d-6f9590781b3e")
+	)
+	(fp_text user "+"
+		(at 2.159 4.445 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1374a80d-2579-458b-8ba2-084763df4aba")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "-"
+		(at -2.921 4.445 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6cbe315b-72aa-49ba-a097-36d59fcab03c")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" smd rect
+		(at -1 3.7)
+		(size 1 4.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.0762)
+		(thermal_bridge_angle 0)
+		(uuid "dcaaad67-7925-4b70-a3c8-c955a1269f46")
+	)
+	(pad "2" smd rect
+		(at 1 3.7)
+		(size 1 4.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.0762)
+		(thermal_bridge_angle 0)
+		(uuid "4a59f517-26ec-44ba-8ec5-d8ec581a4685")
+	)
+	(pad "NC1" smd rect
+		(at -3.4 -1.5 90)
+		(size 3.4 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.0762)
+		(thermal_bridge_angle 0)
+		(uuid "cbef0d22-27c1-4b62-b624-1fe143f0b226")
+	)
+	(pad "NC2" smd rect
+		(at 3.4 -1.5 90)
+		(size 3.4 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.0762)
+		(thermal_bridge_angle 0)
+		(uuid "ee99c685-b237-41be-b9ed-855a90bf8261")
+	)
+)
