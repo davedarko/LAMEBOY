@@ -1,0 +1,4625 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "e64e969d-58f5-400c-94c4-e8996a2180c4")
+	(paper "A4")
+	(lib_symbols
+		(symbol "LAMEBOY-eagle-import:AP2112KAP2112K"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "LAMEBOY:AP2112"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "AP2112KAP2112K_1_0"
+				(polyline
+					(pts
+						(xy -7.62 -5.08) (xy -7.62 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy -7.62 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 2.54 0)
+					(length 5.08)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P$1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -2.54 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P$2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -2.54 180)
+					(length 5.08)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P$3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 2.54 180)
+					(length 5.08)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P$5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LAMEBOY-eagle-import:C-EUC0805"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 1.524 0.381 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 1.524 -4.699 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "LAMEBOY:C0805"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAPACITOR, European symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C-EUC0805_1_0"
+				(rectangle
+					(start -2.032 -2.032)
+					(end 2.032 -1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -2.032 -1.016)
+					(end 2.032 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LAMEBOY-eagle-import:GND"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#GND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at -2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SUPPLY SYMBOL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_1_0"
+				(polyline
+					(pts
+						(xy -1.905 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LAMEBOY-eagle-import:JST_2MM_MALE"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -2.54 5.842 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "LAMEBOY:JST-2-SMD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mates to single-cell LiPo batteries.\nCONN-08352"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "JST_2MM_MALE_1_0"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -2.54 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -1.524 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.778) (xy -2.54 3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.778) (xy -1.778 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 3.302) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 5.08) (xy 5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 1.778) (xy -1.778 3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 3.302) (xy -2.54 3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0) (xy -1.524 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.508) (xy 0 1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 1.016) (xy 3.048 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0.508) (xy 2.54 1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.064 -2.54) (xy 4.064 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.064 0) (xy -1.524 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.318 1.778) (xy 4.318 3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.318 3.302) (xy 5.08 3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 4.064 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 1.778) (xy 4.318 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 1.778) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 3.302) (xy 5.08 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 5.08) (xy 5.08 3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -5.08 90)
+					(length 5.08)
+					(name "-"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 2.54 -5.08 90)
+					(length 5.08)
+					(name "+"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 2.54 90)
+					(length 0)
+					(name "PAD1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "NC1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 5.08 2.54 90)
+					(length 0)
+					(name "PAD2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "NC2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LAMEBOY-eagle-import:LEDCHARLIE"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED"
+				(at 3.556 -4.572 90)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 5.715 -4.572 90)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "LAMEBOY:CHIPLED_0603_CHARLIE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "LED\n\nOSRAM:\n- CHIPLED\nLG R971, LG N971, LY N971, LG Q971, LY Q971, LO R971, LY R971 LH N974, LH R974\nLS Q976, LO Q976, LY Q976\nLO Q996\n- Hyper CHIPLED\nLW Q18S\nLB Q993, LB Q99A, LB R99A\n- SideLED\nLS A670, LO A670, LY A670, LG A670, LP A670\nLB A673, LV A673, LT A673, LW A673\nLH A674\nLY A675\nLS A676, LA A676, LO A676, LY A676, LW A676\nLS A679, LY A679, LG A679\n-  Hyper Micro SIDELED®\nLS Y876, LA Y876, LO Y876, LY Y876\nLT Y87S\n- SmartLED\nLW L88C, LW L88S\nLB L89C, LB L89S, LG L890\nLS L89K, LO L89K, LY L89K\nLS L896, LA L896, LO L896, LY L896\n- TOPLED\nLS T670, LO T670, LY T670, LG T670, LP T670\nLSG T670, LSP T670, LSY T670, LOP T670, LYG T670\nLG T671, LOG T671, LSG T671\nLB T673, LV T673, LT T673, LW T673\nLH T674\nLS T676, LA T676, LO T676, LY T676, LB T676, LH T676, LSB T676, LW T676\nLB T67C, LV T67C, LT T67C, LS T67K, LO T67K, LY T67K, LW E67C\nLS E67B, LA E67B, LO E67B, LY E67B, LB E67C, LV E67C, LT E67C\nLW T67C\nLS T679, LY T679, LG T679\nLS T770, LO T770, LY T770, LG T770, LP T770\nLB T773, LV T773, LT T773, LW T773\nLH T774\nLS E675, LA E675, LY E675, LS T675\nLS T776, LA T776, LO T776, LY T776, LB T776\nLHGB T686\nLT T68C, LB T68C\n- Hyper Mini TOPLED®\nLB M676\n- Mini TOPLED Santana®\nLG M470\nLS M47K, LO M47K, LY M47K\n\nSource: http://www.osram.convergy.de\n\nLUXEON:\n- LUMILED®\nLXK2-PW12-R00, LXK2-PW12-S00, LXK2-PW14-U00, LXK2-PW14-V00\nLXK2-PM12-R00, LXK2-PM12-S00, LXK2-PM14-U00\nLXK2-PE12-Q00, LXK2-PE12-R00, LXK2-PE12-S00, LXK2-PE14-T00, LXK2-PE14-U00\nLXK2-PB12-K00, LXK2-PB12-L00, LXK2-PB12-M00, LXK2-PB14-N00, LXK2-PB14-P00, LXK2-PB14-Q00\nLXK2-PR12-L00, LXK2-PR12-M00, LXK2-PR14-Q00, LXK2-PR14-R00\nLXK2-PD12-Q00, LXK2-PD12-R00, LXK2-PD12-S00\nLXK2-PH12-R00, LXK2-PH12-S00\nLXK2-PL12-P00, LXK2-PL12-Q00, LXK2-PL12-R00\n\nSource: www.luxeon.com\n\nKINGBRIGHT:\n\nKA-3528ASYC\nSource: www.kingbright.com"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LEDCHARLIE_1_0"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy -3.429 -2.159)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -1.905) (xy -3.302 -3.302)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.429 -2.159) (xy -3.048 -1.27) (xy -2.54 -1.778)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.302 -3.302) (xy -2.921 -2.413) (xy -2.413 -2.921)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LAMEBOY-eagle-import:MCP73831/OT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at -7.62 -10.16 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "LAMEBOY:SOT23-5L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "MCP73831/2  Miniature Single-Cell, Fully Integrated Li-Ion, Li-Polymer Charge Management Controllers.\n\nNice and small simple lipoly charge controller, with adjustable current and status output (LED)\n\nhttp://www.ladyada.net/library/pcb/eaglelibrary.html"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MCP73831/OT_1_0"
+				(polyline
+					(pts
+						(xy -7.62 -7.62) (xy -7.62 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 7.62) (xy 10.16 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -7.62) (xy -7.62 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 7.62) (xy 10.16 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "MCP73831/2"
+					(at 7.62 10.16 0)
+					(effects
+						(font
+							(size 1.778 1.5113)
+						)
+						(justify right top)
+					)
+				)
+				(pin output line
+					(at -12.7 -5.08 0)
+					(length 5.08)
+					(name "STAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 -5.08 180)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 5.08 180)
+					(length 5.08)
+					(name "VBAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -12.7 5.08 0)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 0 180)
+					(length 5.08)
+					(name "PROG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LAMEBOY-eagle-import:R-EU_R0603"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at -3.81 1.4986 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -3.81 -3.302 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "LAMEBOY:R0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "RESISTOR, European symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R-EU_R0603_1_0"
+				(polyline
+					(pts
+						(xy -2.54 -0.889) (xy -2.54 0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -0.889) (xy 2.54 -0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -0.889) (xy 2.54 0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0.889) (xy -2.54 0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LAMEBOY-eagle-import:SWITCH-SPDT-SMD-A"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at -1.905 -6.35 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -2.54 3.81 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "LAMEBOY:SWITCH-SPST-SMD-A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SPDT Switch\nSimple slide switch, Spark Fun Electronics SKU : COM-00102\nDPDT SMT slide switch, AYZ0202, SWCH-08179"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SWITCH-SPDT-SMD-A_1_0"
+				(polyline
+					(pts
+						(xy 0 0) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 3.175 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 3.175 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.3592)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -2.54)
+					(radius 0.3592)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 2.54)
+					(radius 0.3592)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "O"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "P"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LAMEBOY-eagle-import:TPS2113-PW"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "LAMEBOY:TEXAS-PW"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TPS2113-PW_1_0"
+				(polyline
+					(pts
+						(xy -10.16 -7.62) (xy -10.16 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -10.16 5.08) (xy 5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -7.62) (xy -10.16 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 5.08) (xy 5.08 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "TPS2113"
+					(at -10.414 6.096 0)
+					(effects
+						(font
+							(size 1.27 1.0795)
+						)
+						(justify left bottom)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 2.54 0)
+					(length 5.08)
+					(name "STAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 0 0)
+					(length 5.08)
+					(name "~{EN}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -2.54 0)
+					(length 5.08)
+					(name "VSNS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -5.08 0)
+					(length 5.08)
+					(name "ILIM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -5.08 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -2.54 180)
+					(length 5.08)
+					(name "IN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 0 180)
+					(length 5.08)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 2.54 180)
+					(length 5.08)
+					(name "IN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LAMEBOY-eagle-import:VCC"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#SUPPLY"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at -1.016 3.556 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SUPPLY SYMBOL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VCC_1_0"
+				(polyline
+					(pts
+						(xy 0 2.54) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 90)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 91.44 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "167b13d9-422e-414c-bab2-79b83e6ced69")
+	)
+	(junction
+		(at 205.74 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2925f6ac-91d8-4ec7-8e06-87c6be0150d8")
+	)
+	(junction
+		(at 205.74 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8954b0d7-7eb2-47e1-8b01-b6a94d2ddfdd")
+	)
+	(junction
+		(at 76.2 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a3af812-3053-4b40-9087-6ef2b647c4b2")
+	)
+	(junction
+		(at 83.82 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a90634c-0600-4f4c-8373-656d812280de")
+	)
+	(junction
+		(at 137.16 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8624b3f-6916-407f-8bd9-ebb017737e5c")
+	)
+	(junction
+		(at 121.92 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce2bdaf5-9c07-40a4-9251-960498d1a567")
+	)
+	(junction
+		(at 195.58 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5a31d7b-9f90-4df1-b0b4-29419951c3ac")
+	)
+	(junction
+		(at 205.74 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d96e98e1-b323-4f35-a251-56afefeeeeb2")
+	)
+	(junction
+		(at 134.62 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8588435-1cea-432d-a285-c8cec928bcb3")
+	)
+	(wire
+		(pts
+			(xy 215.9 76.2) (xy 218.44 76.2)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "00b2c03f-e6da-416a-a655-c544ce95966e")
+	)
+	(wire
+		(pts
+			(xy 119.38 78.74) (xy 121.92 78.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "060ef7c1-e397-4468-ae81-242f0cf007ea")
+	)
+	(wire
+		(pts
+			(xy 91.44 81.28) (xy 93.98 81.28)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "102d4243-06ee-4f86-84eb-2da3c48c8bfd")
+	)
+	(wire
+		(pts
+			(xy 203.2 81.28) (xy 205.74 81.28)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "130ba77e-ad5a-47cb-b0a5-a10d0d821e45")
+	)
+	(wire
+		(pts
+			(xy 195.58 129.54) (xy 198.12 129.54)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1dbc9d87-b722-4ad1-a5e9-f5d9354a78fd")
+	)
+	(wire
+		(pts
+			(xy 91.44 76.2) (xy 91.44 78.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "21c994a5-1c7d-4de4-95ea-eb9a82173bac")
+	)
+	(wire
+		(pts
+			(xy 193.04 129.54) (xy 195.58 129.54)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "21f4274d-efe5-44c9-884a-619a519dcbd3")
+	)
+	(wire
+		(pts
+			(xy 203.2 76.2) (xy 205.74 76.2)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "273ef98f-2bea-4ee1-856a-c916e8dd64e5")
+	)
+	(wire
+		(pts
+			(xy 177.8 81.28) (xy 175.26 81.28)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "29a85eb4-b185-4cfd-9c6d-bccf214c747c")
+	)
+	(wire
+		(pts
+			(xy 121.92 81.28) (xy 121.92 86.36)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2ce94fad-c1f6-4eae-8583-9ab12cdb8cdc")
+	)
+	(wire
+		(pts
+			(xy 137.16 111.76) (xy 137.16 114.3)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3205f072-201c-4072-9d56-ffec1851110f")
+	)
+	(wire
+		(pts
+			(xy 205.74 76.2) (xy 208.28 76.2)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "34eab4d1-bf2b-4fdd-ad20-c80fa1bfcc95")
+	)
+	(wire
+		(pts
+			(xy 91.44 86.36) (xy 91.44 81.28)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3b2656f1-cdf8-4eba-81c9-984b45e51114")
+	)
+	(wire
+		(pts
+			(xy 205.74 81.28) (xy 205.74 86.36)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3c65ab91-9170-4205-b34e-2e1b4e6e6c2f")
+	)
+	(wire
+		(pts
+			(xy 119.38 81.28) (xy 121.92 81.28)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "42bf4cad-b563-45fc-87f5-74299892a1a4")
+	)
+	(wire
+		(pts
+			(xy 205.74 76.2) (xy 205.74 73.66)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "45ed8efc-055b-4bf6-b330-734b7198aee3")
+	)
+	(wire
+		(pts
+			(xy 134.62 101.6) (xy 134.62 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "463214f5-1f60-4c1f-bf51-43537438f6d8")
+	)
+	(wire
+		(pts
+			(xy 119.38 76.2) (xy 121.92 76.2)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4bb390b2-0001-46b7-93cd-8f6b1574e70a")
+	)
+	(wire
+		(pts
+			(xy 167.64 76.2) (xy 177.8 76.2)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4db880f3-adaa-4274-abd1-f812529b6ac8")
+	)
+	(wire
+		(pts
+			(xy 175.26 81.28) (xy 175.26 83.82)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4fee9092-29c1-4564-8785-ad0a81c8bf35")
+	)
+	(wire
+		(pts
+			(xy 218.44 83.82) (xy 218.44 81.28)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "53bffb91-1c50-43bc-aa9a-03a5fd406708")
+	)
+	(wire
+		(pts
+			(xy 147.32 132.08) (xy 144.78 132.08)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "58a6edab-fd97-491c-a851-626ac21c2176")
+	)
+	(wire
+		(pts
+			(xy 76.2 101.6) (xy 76.2 104.14)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "67d7e123-3b44-421b-89c9-8943e61c6818")
+	)
+	(wire
+		(pts
+			(xy 83.82 101.6) (xy 76.2 101.6)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "76d0c13d-0888-4718-a129-51b29d13ee6e")
+	)
+	(wire
+		(pts
+			(xy 195.58 129.54) (xy 195.58 132.08)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7976df66-ea1e-4cdf-b57b-7af1b52b5b81")
+	)
+	(wire
+		(pts
+			(xy 208.28 129.54) (xy 210.82 129.54)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7db9fbce-7d57-4209-b4dc-a314b294e1fa")
+	)
+	(wire
+		(pts
+			(xy 134.62 101.6) (xy 137.16 101.6)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8e8a3cd6-bd0a-45a7-8df3-437f3a81ec18")
+	)
+	(wire
+		(pts
+			(xy 91.44 78.74) (xy 88.9 78.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "991e6fc4-f3b5-40e3-a722-8989861ef757")
+	)
+	(wire
+		(pts
+			(xy 101.6 86.36) (xy 91.44 86.36)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a00bdc53-8974-49e1-93a2-556eb4f133b3")
+	)
+	(wire
+		(pts
+			(xy 111.76 86.36) (xy 121.92 86.36)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a2cf300e-9619-4dc1-90d3-a57676ba20cb")
+	)
+	(wire
+		(pts
+			(xy 83.82 101.6) (xy 99.06 101.6)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a4756f71-dc93-45fc-aab1-cf56eecfd4fd")
+	)
+	(wire
+		(pts
+			(xy 86.36 111.76) (xy 83.82 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b29ca50c-49c5-44e3-a375-2130bb247894")
+	)
+	(wire
+		(pts
+			(xy 167.64 76.2) (xy 167.64 78.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b2d2a1ae-bc47-4ede-aec8-26ec6862271b")
+	)
+	(wire
+		(pts
+			(xy 218.44 88.9) (xy 220.98 88.9)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b3021fd8-8d7c-400b-a0e4-218bb8262d7e")
+	)
+	(wire
+		(pts
+			(xy 93.98 78.74) (xy 91.44 78.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b4f0a59c-ee5a-42a7-9edf-dee8f1e21463")
+	)
+	(wire
+		(pts
+			(xy 167.64 88.9) (xy 167.64 86.36)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b6231d09-75b9-4577-9466-e6eb162e5eda")
+	)
+	(wire
+		(pts
+			(xy 205.74 99.06) (xy 205.74 101.6)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b8351bb9-5efc-407b-a222-f26299b8a165")
+	)
+	(wire
+		(pts
+			(xy 218.44 81.28) (xy 205.74 81.28)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "bbb27c9b-48c6-472e-b6d9-3285b7710719")
+	)
+	(wire
+		(pts
+			(xy 121.92 86.36) (xy 121.92 88.9)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "bfb743aa-7e1a-444e-8646-b75c7102cfb5")
+	)
+	(wire
+		(pts
+			(xy 76.2 101.6) (xy 76.2 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c790103a-1537-44f6-8312-2b97383aed9c")
+	)
+	(wire
+		(pts
+			(xy 205.74 86.36) (xy 205.74 88.9)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c8aee42d-9e47-4ed8-8c24-7eab75e0825d")
+	)
+	(wire
+		(pts
+			(xy 182.88 129.54) (xy 180.34 129.54)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "caf112f8-dafe-4f13-a79d-0509453880dd")
+	)
+	(wire
+		(pts
+			(xy 99.06 111.76) (xy 96.52 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ce67dfc1-12cc-484b-9658-d0681d7bca55")
+	)
+	(wire
+		(pts
+			(xy 129.54 119.38) (xy 129.54 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d244b084-8b21-426b-95f1-93206b0c28f8")
+	)
+	(wire
+		(pts
+			(xy 93.98 76.2) (xy 91.44 76.2)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d285ca15-712a-4671-920b-fe36c4a0cf30")
+	)
+	(wire
+		(pts
+			(xy 119.38 73.66) (xy 121.92 73.66)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d477ccc4-053a-4383-b5f9-3eee9c7902fe")
+	)
+	(wire
+		(pts
+			(xy 127 101.6) (xy 134.62 101.6)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d568482c-7fd0-41ba-bc57-70196a1a6efa")
+	)
+	(wire
+		(pts
+			(xy 205.74 86.36) (xy 210.82 86.36)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d5a4c16c-e635-483c-a01a-1c4c7fe52ba3")
+	)
+	(wire
+		(pts
+			(xy 144.78 134.62) (xy 147.32 134.62)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d8d07ab9-cc6b-4ba9-a1d1-c77da12f6f1b")
+	)
+	(wire
+		(pts
+			(xy 137.16 111.76) (xy 137.16 109.22)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "db91ec88-813e-4a04-874e-4733f4f71b11")
+	)
+	(wire
+		(pts
+			(xy 83.82 104.14) (xy 83.82 101.6)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "dfd5728d-90f6-4250-8250-fb5100b2ef51")
+	)
+	(wire
+		(pts
+			(xy 127 106.68) (xy 129.54 106.68)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e59dbef2-6f7a-44ef-a7ca-16286d35a4f6")
+	)
+	(wire
+		(pts
+			(xy 127 111.76) (xy 137.16 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e8b82754-2bcf-4395-b473-7018cab64925")
+	)
+	(wire
+		(pts
+			(xy 210.82 132.08) (xy 210.82 129.54)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "fa80d63e-c6ad-4bf1-a324-c35848fde621")
+	)
+	(wire
+		(pts
+			(xy 76.2 114.3) (xy 76.2 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "fad1ea0a-60c4-4c63-b950-528762b63316")
+	)
+	(label "VREG_IN"
+		(at 220.98 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.7112 0.7112)
+			)
+			(justify left bottom)
+		)
+		(uuid "2820d827-a108-4f0f-897e-2453814eaeda")
+	)
+	(label "VBAT"
+		(at 134.62 99.06 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.7112 0.7112)
+			)
+			(justify left bottom)
+		)
+		(uuid "4d787caf-317a-41a7-b0d6-06ea62d43649")
+	)
+	(label "VBAT"
+		(at 147.32 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.7112 0.7112)
+			)
+			(justify left bottom)
+		)
+		(uuid "af1b3bfb-65ca-46a6-8a9f-d13746d44bb6")
+	)
+	(label "VREG_IN"
+		(at 121.92 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.7112 0.7112)
+			)
+			(justify left bottom)
+		)
+		(uuid "e27e9624-8e66-43f4-9294-9b16743c3b2d")
+	)
+	(label "VBAT"
+		(at 180.34 129.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right bottom)
+		)
+		(uuid "f69c592e-5fd3-4704-b8d2-82c6980a0304")
+	)
+	(label "VREG_IN"
+		(at 167.64 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.7112 0.7112)
+			)
+			(justify right bottom)
+		)
+		(uuid "f6e09d90-c9d8-491a-b10e-9c6652bef9c2")
+	)
+	(label "VBAT"
+		(at 121.92 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.7112 0.7112)
+			)
+			(justify left bottom)
+		)
+		(uuid "f8ecf6c6-f387-46cf-9364-7468fb36c159")
+	)
+	(global_label "VBUS"
+		(shape bidirectional)
+		(at 121.92 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.7112 0.7112)
+			)
+			(justify left)
+		)
+		(uuid "601d979b-7875-4983-a564-35c7f0c8fea9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 126.9572 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ADC"
+		(shape bidirectional)
+		(at 195.58 132.08 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right)
+		)
+		(uuid "6aac8ff4-3def-4fc5-af6c-0ca065ffa42b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.58 137.4874 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBUS"
+		(shape bidirectional)
+		(at 76.2 99.06 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.7112 0.7112)
+			)
+			(justify left)
+		)
+		(uuid "a6336f3b-ed11-4992-bc5a-13a09361ebf4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 76.2 94.0228 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LAMEBOY-eagle-import:R-EU_R0603")
+		(at 91.44 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0c41aa6d-2cdf-4772-9405-81edc6350a4a")
+		(property "Reference" "R9"
+			(at 87.63 110.2614 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "470"
+			(at 87.63 115.062 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "LAMEBOY:R0603"
+			(at 91.44 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18ae7e1f-7a89-4672-95b8-299c8445470f")
+		)
+		(pin "2"
+			(uuid "86360a55-f667-4026-a326-b2fa4b7b6b83")
+		)
+		(instances
+			(project ""
+				(path "/d3b82d18-23a3-478c-8362-291c1f275fce/076f7576-f947-4fb3-90c8-0f0ab01a725c"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LAMEBOY-eagle-import:SWITCH-SPDT-SMD-A")
+		(at 213.36 86.36 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "12ea2e4a-16dc-4d05-94e6-cabb7c80a48b")
+		(property "Reference" "S2"
+			(at 211.455 80.01 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "PWR"
+			(at 210.82 90.17 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "LAMEBOY:SWITCH-SPST-SMD-A"
+			(at 213.36 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 213.36 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d66797c-cd46-4678-94ff-556c0203f0bd")
+		)
+		(pin "2"
+			(uuid "090ca849-520b-4bb1-aceb-8498a821e680")
+		)
+		(pin "3"
+			(uuid "f89b8e48-34fe-477b-ae1c-71bef54e69d6")
+		)
+		(instances
+			(project ""
+				(path "/d3b82d18-23a3-478c-8362-291c1f275fce/076f7576-f947-4fb3-90c8-0f0ab01a725c"
+					(reference "S2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LAMEBOY-eagle-import:GND")
+		(at 121.92 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "14447f9c-e4fe-4c97-b9b9-0be3c93acb0a")
+		(property "Reference" "#GND21"
+			(at 121.92 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 119.38 93.98 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2504141-351a-494c-9cf0-bc1e8fe18721")
+		)
+		(instances
+			(project ""
+				(path "/d3b82d18-23a3-478c-8362-291c1f275fce/076f7576-f947-4fb3-90c8-0f0ab01a725c"
+					(reference "#GND21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LAMEBOY-eagle-import:GND")
+		(at 205.74 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1969fe85-e1b5-4f8f-8a36-daf7107d9e3c")
+		(property "Reference" "#GND39"
+			(at 205.74 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 203.2 106.68 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a29af639-3762-4133-b8bf-0d61d6b589c6")
+		)
+		(instances
+			(project ""
+				(path "/d3b82d18-23a3-478c-8362-291c1f275fce/076f7576-f947-4fb3-90c8-0f0ab01a725c"
+					(reference "#GND39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LAMEBOY-eagle-import:R-EU_R0603")
+		(at 205.74 93.98 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1c2c9ec4-606b-41e9-9809-00811e4902f3")
+		(property "Reference" "R14"
+			(at 207.2386 90.17 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10k"
+			(at 202.438 90.17 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "LAMEBOY:R0603"
+			(at 205.74 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "75f13f7e-b61f-4f5e-adb0-c23090f69d75")
+		)
+		(pin "1"
+			(uuid "cfce9265-9cdd-460f-a13b-79dd88bb3b13")
+		)
+		(instances
+			(project ""
+				(path "/d3b82d18-23a3-478c-8362-291c1f275fce/076f7576-f947-4fb3-90c8-0f0ab01a725c"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LAMEBOY-eagle-import:GND")
+		(at 137.16 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ca8d1e2-e0cf-4740-9362-9e9a1d58a253")
+		(property "Reference" "#GND18"
+			(at 137.16 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 134.62 119.38 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b1d06bc5-170e-4a91-a1a9-6e481c6c8c32")
+		)
+		(instances
+			(project ""
+				(path "/d3b82d18-23a3-478c-8362-291c1f275fce/076f7576-f947-4fb3-90c8-0f0ab01a725c"
+					(reference "#GND18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LAMEBOY-eagle-import:GND")
+		(at 220.98 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "254cf7f4-7975-4592-b838-be7d96146c0c")
+		(property "Reference" "#GND3"
+			(at 220.98 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 223.52 78.74 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 220.98 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4136b16f-161c-4d06-9b83-aa57ccce86d1")
+		)
+		(instances
+			(project ""
+				(path "/d3b82d18-23a3-478c-8362-291c1f275fce/076f7576-f947-4fb3-90c8-0f0ab01a725c"
+					(reference "#GND3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LAMEBOY-eagle-import:R-EU_R0603")
+		(at 203.2 129.54 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "30a2bdf4-e2a8-48fb-8a86-eb9482a1f03a")
+		(property "Reference" "R7"
+			(at 207.01 131.0386 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100k"
+			(at 207.01 126.238 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "LAMEBOY:R0603"
+			(at 203.2 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 203.2 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50431f98-f46e-4d21-af21-c59a3fca676c")
+		)
+		(pin "2"
+			(uuid "50407157-a85c-4896-8fb1-cd6abad714eb")
+		)
+		(instances
+			(project ""
+				(path "/d3b82d18-23a3-478c-8362-291c1f275fce/076f7576-f947-4fb3-90c8-0f0ab01a725c"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LAMEBOY-eagle-import:R-EU_R0603")
+		(at 129.54 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "31f67a32-f9db-47a8-8840-9dc5d2b40f49")
+		(property "Reference" "R10"
+			(at 128.0414 115.57 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "2k"
+			(at 132.842 115.57 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "LAMEBOY:R0603"
+			(at 129.54 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae48544a-5f79-4554-b4da-deeb61b6522b")
+		)
+		(pin "2"
+			(uuid "b432045c-444d-487f-9b25-e454ed656df4")
+		)
+		(instances
+			(project ""
+				(path "/d3b82d18-23a3-478c-8362-291c1f275fce/076f7576-f947-4fb3-90c8-0f0ab01a725c"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LAMEBOY-eagle-import:GND")
+		(at 210.82 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3c713231-f8b9-4651-b17f-03a316fbfd30")
+		(property "Reference" "#GND15"
+			(at 210.82 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 208.28 137.16 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 210.82 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4cb1ec36-f8a2-4839-a2b0-20951568d42e")
+		)
+		(instances
+			(project ""
+				(path "/d3b82d18-23a3-478c-8362-291c1f275fce/076f7576-f947-4fb3-90c8-0f0ab01a725c"
+					(reference "#GND15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LAMEBOY-eagle-import:C-EUC0805")
+		(at 76.2 109.22 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "53b79dc7-f42f-4113-ad8f-45bbdce6ff31")
+		(property "Reference" "C7"
+			(at 74.676 109.601 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 74.676 104.521 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "LAMEBOY:C0805"
+			(at 76.2 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0acb592-ad99-4358-a21f-d474e2e86a76")
+		)
+		(pin "2"
+			(uuid "4096c46c-8661-4b21-a449-e97d5ab94225")
+		)
+		(instances
+			(project ""
+				(path "/d3b82d18-23a3-478c-8362-291c1f275fce/076f7576-f947-4fb3-90c8-0f0ab01a725c"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LAMEBOY-eagle-import:GND")
+		(at 167.64 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "64b124b4-8b83-47bf-b679-b3fc734c4c6f")
+		(property "Reference" "#GND35"
+			(at 167.64 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 93.98 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1e25b0d-c82f-4012-b0cf-909e262c89bc")
+		)
+		(instances
+			(project ""
+				(path "/d3b82d18-23a3-478c-8362-291c1f275fce/076f7576-f947-4fb3-90c8-0f0ab01a725c"
+					(reference "#GND35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LAMEBOY-eagle-import:C-EUC0805")
+		(at 210.82 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6c40672a-02a3-4599-8dbd-85a9132438ed")
+		(property "Reference" "C3"
+			(at 210.439 74.676 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1uF"
+			(at 215.519 74.676 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "LAMEBOY:C0805"
+			(at 210.82 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 210.82 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cdec6006-a7d8-4218-93ba-889a2463c9e8")
+		)
+		(pin "2"
+			(uuid "87381b5e-9679-4284-93aa-fc045aa33130")
+		)
+		(instances
+			(project ""
+				(path "/d3b82d18-23a3-478c-8362-291c1f275fce/076f7576-f947-4fb3-90c8-0f0ab01a725c"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LAMEBOY-eagle-import:GND")
+		(at 76.2 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6eab9a1f-dc5c-414d-ab7c-ac41179b4060")
+		(property "Reference" "#GND19"
+			(at 76.2 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 73.66 119.38 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cabced43-de5f-4f98-804c-1e3ca1c15d6b")
+		)
+		(instances
+			(project ""
+				(path "/d3b82d18-23a3-478c-8362-291c1f275fce/076f7576-f947-4fb3-90c8-0f0ab01a725c"
+					(reference "#GND19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LAMEBOY-eagle-import:VCC")
+		(at 205.74 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "816b1249-6bc6-400e-9e02-99b8a3e13f5d")
+		(property "Reference" "#SUPPLY14"
+			(at 205.74 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 204.724 70.104 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db7ca047-cd9d-45dd-8c6f-23bf2feee7dd")
+		)
+		(instances
+			(project ""
+				(path "/d3b82d18-23a3-478c-8362-291c1f275fce/076f7576-f947-4fb3-90c8-0f0ab01a725c"
+					(reference "#SUPPLY14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LAMEBOY-eagle-import:GND")
+		(at 149.86 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9afbdac3-0146-4193-9d04-8ac311132214")
+		(property "Reference" "#GND13"
+			(at 149.86 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 152.4 137.16 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90a68e8f-71f1-4e4b-9942-c717f2f72c40")
+		)
+		(instances
+			(project ""
+				(path "/d3b82d18-23a3-478c-8362-291c1f275fce/076f7576-f947-4fb3-90c8-0f0ab01a725c"
+					(reference "#GND13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LAMEBOY-eagle-import:C-EUC0805")
+		(at 167.64 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9b3dd21a-e213-4380-a131-cf833b4e8e89")
+		(property "Reference" "C2"
+			(at 169.164 80.899 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1uF"
+			(at 169.164 85.979 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "LAMEBOY:C0805"
+			(at 167.64 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f6bfc3d-cde9-4e45-9953-d3e88fa6cc0f")
+		)
+		(pin "2"
+			(uuid "2b16f82d-a18e-4a6d-aa7c-1f2f57a4c764")
+		)
+		(instances
+			(project ""
+				(path "/d3b82d18-23a3-478c-8362-291c1f275fce/076f7576-f947-4fb3-90c8-0f0ab01a725c"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LAMEBOY-eagle-import:AP2112KAP2112K")
+		(at 190.5 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9c0821d6-ef03-4af9-bbb6-0c8dcfe8c7ad")
+		(property "Reference" "U$9"
+			(at 190.5 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AP2112KAP2112K"
+			(at 190.5 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LAMEBOY:AP2112"
+			(at 190.5 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$1"
+			(uuid "02fa7a58-191c-4a59-a4b7-4af636182498")
+		)
+		(pin "P$2"
+			(uuid "c9f062e5-badb-4633-b3c2-133431db57ae")
+		)
+		(pin "P$3"
+			(uuid "08a2af49-421b-4d52-af3b-7fd12cf199e0")
+		)
+		(pin "P$5"
+			(uuid "7703ed7d-3bc9-4493-be55-c881483b887d")
+		)
+		(instances
+			(project ""
+				(path "/d3b82d18-23a3-478c-8362-291c1f275fce/076f7576-f947-4fb3-90c8-0f0ab01a725c"
+					(reference "U$9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LAMEBOY-eagle-import:GND")
+		(at 175.26 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a41835ee-1643-4a54-bede-e59c59b04724")
+		(property "Reference" "#GND34"
+			(at 175.26 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 172.72 88.9 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9154333d-18bb-4115-b8ff-76a768e2dcb8")
+		)
+		(instances
+			(project ""
+				(path "/d3b82d18-23a3-478c-8362-291c1f275fce/076f7576-f947-4fb3-90c8-0f0ab01a725c"
+					(reference "#GND34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LAMEBOY-eagle-import:C-EUC0805")
+		(at 137.16 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a85fd3a1-d805-463a-95b9-ce87994cc9a4")
+		(property "Reference" "C8"
+			(at 138.684 103.759 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 138.684 108.839 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "LAMEBOY:C0805"
+			(at 137.16 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c28a393c-3687-44dd-a7ba-0348750d7bf5")
+		)
+		(pin "2"
+			(uuid "52631e69-01da-48f6-9968-4c31d5c39696")
+		)
+		(instances
+			(project ""
+				(path "/d3b82d18-23a3-478c-8362-291c1f275fce/076f7576-f947-4fb3-90c8-0f0ab01a725c"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LAMEBOY-eagle-import:R-EU_R0603")
+		(at 187.96 129.54 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b72daa9f-1584-4084-8f9e-dcfa1676ef0a")
+		(property "Reference" "R6"
+			(at 191.77 131.0386 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "330k"
+			(at 191.77 126.238 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "LAMEBOY:R0603"
+			(at 187.96 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e6134e5-fdcb-45f5-b5b1-0afd0d3d7fcb")
+		)
+		(pin "2"
+			(uuid "6fda8938-7fc1-45a8-aee5-46e2169ccfe8")
+		)
+		(instances
+			(project ""
+				(path "/d3b82d18-23a3-478c-8362-291c1f275fce/076f7576-f947-4fb3-90c8-0f0ab01a725c"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LAMEBOY-eagle-import:GND")
+		(at 129.54 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bbe6cf93-32e8-4619-b4f5-ae1bd9322f3e")
+		(property "Reference" "#GND20"
+			(at 129.54 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 127 124.46 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af67090f-1ef3-42e6-aa45-38cdbd4429da")
+		)
+		(instances
+			(project ""
+				(path "/d3b82d18-23a3-478c-8362-291c1f275fce/076f7576-f947-4fb3-90c8-0f0ab01a725c"
+					(reference "#GND20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LAMEBOY-eagle-import:R-EU_R0603")
+		(at 106.68 86.36 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ccb6e8be-4f8c-4f03-8946-9be0814e0c62")
+		(property "Reference" "R11"
+			(at 110.49 87.8586 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "470"
+			(at 110.49 83.058 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "LAMEBOY:R0603"
+			(at 106.68 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5563db4-1159-4437-96b0-4b23163035ad")
+		)
+		(pin "2"
+			(uuid "1f89f1fb-b7a6-4818-90cf-de1ce31f5b21")
+		)
+		(instances
+			(project ""
+				(path "/d3b82d18-23a3-478c-8362-291c1f275fce/076f7576-f947-4fb3-90c8-0f0ab01a725c"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LAMEBOY-eagle-import:MCP73831/OT")
+		(at 111.76 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d4fc1698-4765-4dd9-9b75-67e8fcca4517")
+		(property "Reference" "IC3"
+			(at 104.14 116.84 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "MCP73831"
+			(at 111.76 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LAMEBOY:SOT23-5L"
+			(at 111.76 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10198775-b478-4514-8797-62f09ebddac8")
+		)
+		(pin "2"
+			(uuid "a50fd99c-eb84-40b7-9326-200e69eef483")
+		)
+		(pin "3"
+			(uuid "f1c73454-2eff-443b-917a-ae4036a6442a")
+		)
+		(pin "4"
+			(uuid "80ab3168-6d35-4efd-9333-b0738c435702")
+		)
+		(pin "5"
+			(uuid "8cd9d923-e102-4245-aece-732912a8e339")
+		)
+		(instances
+			(project ""
+				(path "/d3b82d18-23a3-478c-8362-291c1f275fce/076f7576-f947-4fb3-90c8-0f0ab01a725c"
+					(reference "IC3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LAMEBOY-eagle-import:TPS2113-PW")
+		(at 109.22 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e6062e91-7ce7-4244-9f28-e5320cc5c4e1")
+		(property "Reference" "U$4"
+			(at 109.22 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "TPS2113-PW"
+			(at 109.22 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LAMEBOY:TEXAS-PW"
+			(at 109.22 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34f0d8d8-4c54-4736-aa95-ed4c07003065")
+		)
+		(pin "2"
+			(uuid "63abbd4b-3dae-4492-9005-b4751f9645cc")
+		)
+		(pin "3"
+			(uuid "a9b54baa-1a64-4a4d-a266-56eef0b33a88")
+		)
+		(pin "4"
+			(uuid "f5c91619-d9d6-4f62-9cb1-e49b90aafb38")
+		)
+		(pin "5"
+			(uuid "17ce806a-1d5d-4049-9f05-5e1209ae91a3")
+		)
+		(pin "6"
+			(uuid "dc0705d7-02da-40fa-af76-bbdea153ffec")
+		)
+		(pin "7"
+			(uuid "59654447-7126-4fad-9138-ce3a26fa9ad6")
+		)
+		(pin "8"
+			(uuid "ba775b0a-2f45-4fb3-bd8d-50d71780eb59")
+		)
+		(instances
+			(project ""
+				(path "/d3b82d18-23a3-478c-8362-291c1f275fce/076f7576-f947-4fb3-90c8-0f0ab01a725c"
+					(reference "U$4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LAMEBOY-eagle-import:GND")
+		(at 88.9 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e93a140a-d80e-4dda-b544-dd6a3cd8cdf9")
+		(property "Reference" "#GND22"
+			(at 88.9 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 86.36 83.82 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "59590e8b-259e-4f8d-b8b1-ee107d01d263")
+		)
+		(instances
+			(project ""
+				(path "/d3b82d18-23a3-478c-8362-291c1f275fce/076f7576-f947-4fb3-90c8-0f0ab01a725c"
+					(reference "#GND22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LAMEBOY-eagle-import:JST_2MM_MALE")
+		(at 139.7 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "efeb2d01-235e-4c86-9391-63e83ebbad01")
+		(property "Reference" "J1"
+			(at 133.858 137.16 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "JST_2MM_MALE"
+			(at 139.7 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LAMEBOY:JST-2-SMD"
+			(at 139.7 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c4680fc8-745e-4ecf-86d2-26b1133d7540")
+		)
+		(pin "2"
+			(uuid "86b80aa9-967a-473a-bb17-307cabbc71d2")
+		)
+		(pin "NC1"
+			(uuid "b1da6c90-498a-498c-b265-44a1f390c983")
+		)
+		(pin "NC2"
+			(uuid "43c0a80f-afb6-4c43-b1f9-6a636ec552e3")
+		)
+		(instances
+			(project ""
+				(path "/d3b82d18-23a3-478c-8362-291c1f275fce/076f7576-f947-4fb3-90c8-0f0ab01a725c"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LAMEBOY-eagle-import:LEDCHARLIE")
+		(at 83.82 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f90ab29d-0a61-4c47-b5f6-02ddd20c6db2")
+		(property "Reference" "CHARGE0"
+			(at 87.376 111.252 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "LEDCHARLIE"
+			(at 89.535 111.252 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LAMEBOY:CHIPLED_0603_CHARLIE"
+			(at 83.82 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "d29629bf-7fc9-4c5f-8255-f686286584ce")
+		)
+		(pin "C"
+			(uuid "6c7a09a6-fb4b-487b-a58a-aa9a80eb3acb")
+		)
+		(instances
+			(project ""
+				(path "/d3b82d18-23a3-478c-8362-291c1f275fce/076f7576-f947-4fb3-90c8-0f0ab01a725c"
+					(reference "CHARGE0")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

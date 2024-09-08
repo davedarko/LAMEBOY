@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "LAMEBOY")(type "KiCad")(uri "$(KIPRJMOD)/LAMEBOY.pretty")(options "")(descr ""))
+)
